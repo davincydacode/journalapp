@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "702648897943",
+    "firebase_url": "https://journalapps-bfb53.firebaseio.com",
+    "project_id": "journalapps-bfb53",
+    "storage_bucket": "journalapps-bfb53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702648897943:android:612ed4ddacdd06e1",
+        "android_client_info": {
+          "package_name": "com.example.user.eduplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702648897943-m5769m45gbekgq4fd4r11mp0s6sfau1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMMu1YxzeWbKRqmx66rjaM8L0jmp5H5hg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

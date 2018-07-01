@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/feed"
+            android:layout_width="20sp"
+            android:layout_height="40px"
+            android:layout_weight="1"
+            android:src="@drawable/feed" />
+
+        <ImageView
+            android:id="@+id/write"
+            android:layout_width="20sp"
+            android:layout_height="40px"
+            android:layout_weight="1"
+            android:src="@drawable/write" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="40px"
+        >
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="30sp"
+    android:id="@+id/title"
+    android:layout_marginTop="40px"
+    android:hint="Journal Title"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="300sp"
+    android:id="@+id/journalmessage"
+    android:hint="Start Writing your Journal"
+
+    />
+        <Button
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:id="@+id/save"
+            android:text="Save Journal"/>
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
